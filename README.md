@@ -6,15 +6,15 @@ The terminal multiplexer tmux must be installed to use the monitoring tool:
 
 `sudo apt-get install tmux`
 
+## Supported operating systems
+
+So far, only Debian based x86_64 Linux systems have been tested. Using any system that deviates from Linux-x86_64 requires new builds of TestFloat/SoftFloat. See the TestFloat/SoftFloat folders for more information.
+
 ## Change permissions for scripts and the executable
 
 `chmod +x mktests_testfloat_mod.sh mktests_testfloat_mod_aux.sh testfloat_kill.sh msg.sh fp_test/fp_test`
 
 *Note that permissions need to be changed not only for the shell scripts, but also for the executable* `fp_test/fp_test`.
-
-## Supported operating systems
-
-So far, only Debian based x86_64 Linux systems have been tested. Using any system that deviates from Linux-x86_64 requires new builds of TestFloat/SoftFloat. See the TestFloat/SoftFloat folders for more information.	
 
 ## Regarding sudo rights
 
