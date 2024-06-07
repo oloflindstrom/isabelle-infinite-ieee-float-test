@@ -64,7 +64,7 @@ Simply remove the `watch` command. The log files will have to be refreshed and i
 
 - Use `Ctrl+-` and `Ctrl++` to zoom in and out in the tmux monitoring tool when the text is too big to be contained in the panes, or too small to be viewed clearly. 
 
-- `make tmux-config` can be used to get rid of the green line/bar at the bottom of the command line window. Note that this will affect all use cases of tmux for the current user, and not solely when running this testing framework. Fullscreen mode is recommended while using the monitorng tool (`F11` for, e.g., GNOME terminal).
+- `make tmux-config` can be used to get rid of the green line/bar at the bottom of the command line window. Note that this will affect all use cases of tmux for the current user, and not solely when running this testing framework. Fullscreen mode is recommended while using the monitoring tool (`F11` for, e.g., GNOME terminal).
 
 ## License and credits
 
