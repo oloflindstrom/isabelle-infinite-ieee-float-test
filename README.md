@@ -12,6 +12,10 @@ The terminal multiplexer tmux must be installed to use the monitoring tool:
 
 *Note that permissions need to be changed not only for the shell scripts, but also for the executable* `fp_test/fp_test`.
 
+## Supported operating systems
+
+So far, only Debian based x86_64 Linux systems have been tested. Using any system that deviates from Linux-x86_64 requires new builds of TestFloat/SoftFloat. See the TestFloat/SoftFloat folders for more information.	
+
 ## Regarding sudo rights
 
 If a limited number of tests are run, the scripts will stop automatically once the testing is finished. To abort a testing session before it has finished, or when exiting an infinite testing session, sudo rights are needed. All instances of `mktests_testfloat_mod_aux.sh` needs to be terminated, which is achieved by using the command `make kill`. Inspect `testfloat_kill.sh` for viewing the actual command. Please note that if you do not have sudo rights, the infinite testing mode cannot be stopped -- you will have to reboot the system, or sign out from the session in some other way. Therefore, there is a disclaimer before starting the testing, which requires the user to enter "y/Y" in order to continue.
