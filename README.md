@@ -68,7 +68,12 @@ Simply remove the `watch` command. The log files will have to be refreshed and i
 
 ## License and credits
 
- 
+### Berkeley TestFloat/SoftFloat Release 3e
+
+Written by John R. Hauser
+
+Copyright 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018 The Regents of the
+University of California.  All rights reserved.
 
 
 
