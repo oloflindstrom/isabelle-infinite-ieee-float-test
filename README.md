@@ -34,7 +34,7 @@ Infinite testing of all 116 combinations:
 
 Include a debug file (`OUTPUT_debug.log`) consisting of all processed test vectors:
 
-`make test watch n=inf p=debug`
+`make test watch n=5 p=debug`
 
 Run `fcheck` mode, which deliberately creates faulty test vectors (i.e., most of the time, a significant amount of test cases will fail). This is useful for guaranteeing that the testing framework is functioning. If, e.g., permissions are not granted for the `fp_test` executable, there will be no failed test cases when running the fail-check mode:
 
