@@ -26,7 +26,7 @@ If a limited number of tests are run, the scripts will stop automatically once t
 
 Test all 116 combinations and process *n* test vectors per combination (in the example, *n* = 5):
 
-`make test watch n=5
+`make test watch n=5`
 
 Infinite testing of all 116 combinations:
 
