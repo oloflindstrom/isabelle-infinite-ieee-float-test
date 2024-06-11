@@ -70,7 +70,7 @@ Simply remove the `watch` command. The log files will have to be refreshed and i
 
 ## License and credits
 
-### Berkeley TestFloat/SoftFloat Release 3e
+### Berkeley [TestFloat](http://www.jhauser.us/arithmetic/TestFloat.html)/[SoftFloat](http://www.jhauser.us/arithmetic/SoftFloat.html) Release 3e
 
 Written by John R. Hauser
 
