@@ -68,6 +68,8 @@ Simply remove the `watch` command. The log files will have to be refreshed and i
 
 - `make tmux-config` can be used to get rid of the green line/bar at the bottom of the command line window. Note that this will affect all use cases of tmux for the current user, and not solely when running this testing framework. Fullscreen mode is recommended while using the monitoring tool (`F11` for, e.g., GNOME terminal).
 
+- Correct SHA-256 hash of `fp_test` is: `06afc924766cfa49042ffe36edf8f83a5f90295e4a172ba68c3846049ebe32c0`.
+
 ## License and credits
 
 ### Berkeley [TestFloat](http://www.jhauser.us/arithmetic/TestFloat.html)/[SoftFloat](http://www.jhauser.us/arithmetic/SoftFloat.html) Release 3e
