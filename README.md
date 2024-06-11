@@ -1,5 +1,7 @@
 # isabelle-infinite-ieee-float-test
 
+This is a program for testing the proof assistant Isabelle's [formal floating-point model](https://www.isa-afp.org/entries/IEEE_Floating_Point.html "A Formal Model of IEEE Floating Point Arithmetic"). Its purpose is to check whether the model conforms to the IEEE 754 Standard. A total of 116 combinations of formats, operations and rounding modes can be tested.
+
 ## Dependencies
 
 The terminal multiplexer tmux must be installed to use the monitoring tool:
@@ -75,7 +77,9 @@ Written by John R. Hauser
 Copyright 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018 The Regents of the
 University of California.  All rights reserved.
 
+### The `fp_test` executable
 
+All credits go to Peter Lammich for the `fp_test` executable, which is based on SML code generated from Isabelle theories. The original string formatting of the test vectors used in the provided shell scripts was also written by Peter Lammich.
 
  
 
