@@ -20,7 +20,7 @@ So far, only Debian based x86_64 Linux systems have been tested. Using any syste
 
 ## Regarding sudo rights
 
-If a limited number of tests are run, the scripts will stop automatically once the testing is finished. To abort a testing session before it has finished, or when exiting an infinite testing session, sudo rights are needed. All instances of `mktests_testfloat_mod_aux.sh` needs to be terminated, which is achieved by using the command `make kill`. Inspect `testfloat_kill.sh` for viewing the actual command. Please note that if you do not have sudo rights, the infinite testing mode cannot be stopped -- you will have to reboot the system, or sign out from the session in some other way. Therefore, there is a disclaimer before starting the testing, which requires the user to enter "y/Y" in order to continue.
+If a limited number of tests are run, the scripts will stop automatically once the testing is finished. To abort a testing session before it has finished, or when exiting an infinite testing session, sudo rights are needed. All instances of `mktests_testfloat_mod_aux.sh` need to be terminated, which is achieved by using the command `make kill`. Inspect `testfloat_kill.sh` for viewing the actual command. Please note that if you do not have sudo rights, the infinite testing mode cannot be stopped -- you will have to reboot the system, or sign out from the session in some other way. Therefore, there is a disclaimer before starting the testing, which requires the user to enter "y/Y" in order to continue.
 
 *If the user neither has sudo rights, nor can end the session (as could be the case if ssh is used to access a host), infinite testing should not be conducted, since only an admin could stop the scripts.*
 
